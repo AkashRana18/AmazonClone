@@ -297,3 +297,72 @@ ul a {
 .copyright {
     padding-top: 8px;
 }
+
+/* responsive code  */
+
+/* Media query for screens smaller than 768px (typical tablet size) */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto; /* Adjust the height to fit content */
+        padding: 10px; /* Add some padding for better spacing */
+        justify-content: center; /* Center align items */
+    }
+
+    #nav-left {
+        margin-right: auto; /* Push the logo to the left */
+    }
+
+    #nav-right {
+        display: none; /* Hide the right-side content */
+    }
+}
+
+/* Media query for screens smaller than 480px (typical smartphone size) */
+@media (max-width: 480px) {
+    .navbar {
+        height: auto; /* Adjust the height to fit content */
+        padding: 10px; /* Add padding for better spacing */
+        flex-direction: column; /* Stack items vertically */
+    }
+    #nav-left {
+        margin-bottom: 10px; /* Remove margin */
+        text-align: center; /* Center align text */
+    }
+
+    #nav-left img {
+        margin: 0; /* Remove margin */
+        height: auto; /* Allow the logo to scale */
+    }
+
+    #nav-right {
+        display: none; /* Hide the right-side content */
+    }
+
+    .nav-search {
+        margin-right: 1rem; /* Adjust margin for search bar */
+    }
+
+    .search-select {
+        width: 100%; /* Full width for select box */
+        border-top-left-radius: 4px; /* Adjust border radius */
+        border-bottom-left-radius: 4px; /* Adjust border radius */
+    }
+
+    .search-box {
+        width: 100%; /* Full width for search input */
+    }
+
+    .search-icon {
+        width: 100%; /* Full width for search icon */
+        border-top-right-radius: 4px; /* Adjust border radius */
+        border-bottom-right-radius: 4px; /* Adjust border radius */
+    }
+
+    .nav-right {
+        margin-top: 10px; /* Add space above the right-side content */
+    }
+}
+
+
+
+
