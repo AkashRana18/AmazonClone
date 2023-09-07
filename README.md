@@ -41,11 +41,11 @@ To get started with this project locally:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-github-username/amazon-clone.git
+   git clone https://github.com/AkashRana18/AmazonClone.git
 
    
 
-Contributing
+## Contributing
    
 We welcome contributions to improve and enhance this Amazon Clone project. If you'd like to contribute, please follow these steps:
 Fork the repository.
