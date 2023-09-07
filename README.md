@@ -42,11 +42,10 @@ To get started with this project locally:
 
    ```bash
    git clone https://github.com/your-github-username/amazon-clone.git
-   ```
-   
+
    
 
-   ## Contributing
+Contributing
    
 We welcome contributions to improve and enhance this Amazon Clone project. If you'd like to contribute, please follow these steps:
 Fork the repository.
