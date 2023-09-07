@@ -10,6 +10,7 @@ Welcome to the Amazon Clone project! This project is a simple HTML and CSS-based
 - [Usage](#usage)
 - [Demo](#demo)
 - [Getting Started](#getting-started)
+- [Contributing](#contributing)
 
 
 
@@ -45,7 +46,7 @@ To get started with this project locally:
    
    
 
-   ##Contributing
+   ## Contributing
    
 We welcome contributions to improve and enhance this Amazon Clone project. If you'd like to contribute, please follow these steps:
 Fork the repository.
